@@ -1,0 +1,164 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.img-iphone {
+  transform: rotate(20deg);
+  /* padding: 10%; */
+  width: 60%;
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+@media (max-width:1028px ) {
+  #title {
+    text-align: center;
+  }
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Nav brand bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download button */
+.donwload-button {
+  margin: 3% 5% 3% 0;
+}
+
+/* Second Session  */
+h3 {
+  font-family: "Montserrat";
+  font-style: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* Feature session */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.container {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials session */
+#testimonials {
+
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+padding: 7% 15%;
+
+}
+#pricing {
+text-align: center;
+padding: 100px;
+
+}
+.pricing-colum {
+padding: 3% 2%;
+}
+.ctafooter {
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+
+padding: 7% 15%
+}
+.donwload-button2 {
+
+  margin: 2% 2% ;
+}
+.footer-title {
+  padding: 5% 15% 0;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  margin: 3% auto;
+  padding: 2%;
+
+}
+.s-fab {
+  margin: 2% 1%;
+}
